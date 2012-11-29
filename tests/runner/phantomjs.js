@@ -1,5 +1,6 @@
 require.config({
   paths:{
+    'base64': '../../vendor/base64',
     'mocha': '../vendor/mocha/mocha',
     'chai': '../vendor/chai/chai'
   },

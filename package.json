@@ -9,14 +9,22 @@
   "bugs": {
     "url": "http://github.com/anchorjs/buffer/issues"
   },
-  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
-  } ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "main",
   "volo": {
+    "baseUrl": "vendor",
     "dependencies": {
+      "base64": "github:anchorjs/base64/master"
     }
   }
 }
