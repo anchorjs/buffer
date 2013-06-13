@@ -1,7 +1,5 @@
-define(['buffer',
-        'chai'],
+define(['buffer'],
 function(buffer, chai) {
-  var expect = chai.expect;
 
   describe("buffer", function() {
 
