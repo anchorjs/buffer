@@ -16,7 +16,7 @@ function(buffer, chai) {
 
   });
   
-  describe("Buffer with string subject", function() {
+  describe("Buffer constructed with implied UTF8 string", function() {
     var buf = new buffer.Buffer('JavaScript');
     
     it('should have correct length', function() {
@@ -24,7 +24,12 @@ function(buffer, chai) {
     });
     it('should convert to hex string', function() {
       console.log('hex: ' + buf.toString('hex'))
-      expect(buf.toString('hex')).to.equal('4a617661536372697074')
+      expect(buf.toString('hex')).to.equal('4a617661536372697074');
+      
+      var chk = new buffer.Buffer('4a617661536372697074', 'hex');
+      expect(buf.toString()).to.equal('JavaScript');
+      expect(buf.toString('utf8')).to.equal('JavaScript');
+      expect(buf.toString('utf-8')).to.equal('JavaScript');
     });
     it('should convert to base64 string', function() {
       // FIXME:
