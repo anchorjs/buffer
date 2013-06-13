@@ -1,5 +1,5 @@
 define(['buffer'],
-function(buffer, chai) {
+function(buffer) {
 
   describe("buffer", function() {
 
