@@ -1,0 +1,15 @@
+{
+  "name": "buffer",
+  "version": "0.0.0",
+  "description": "Manipulate, create, and consume raw data.",
+  "repo": "anchorjs/buffer",
+  "main": "main.js",
+  "scripts": [
+    "main.js",
+    "lib/buffer.js"
+  ],
+  "dependencies": {
+    "anchorjs/base64": "*"
+  },
+  "license": "MIT"
+}
