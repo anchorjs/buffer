@@ -47,5 +47,5 @@ Headless tests can be executed directly from a terminal:
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2012-2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
+Copyright (c) 2012-2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>  
 Copyright Joyent, Inc. and other Node contributors.
