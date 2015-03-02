@@ -1,0 +1,28 @@
+{
+  "name": "buffer",
+  "version": "0.0.0",
+  "description": "Manipulate, create, and consume raw data.",
+  "authors": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "homepage": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anchorjs/buffer.git"
+  },
+  "license": "MIT",
+  "main": "main.js",
+  "dependencies": {
+    "base64": "git://github.com/anchorjs/base64.git#master"
+  },
+  "ignore": [
+    ".gitignore",
+    ".jshintrc",
+    "Makefile",
+    "README.md",
+    "component.json",
+    "package.json",
+    "test"
+  ]
+}
